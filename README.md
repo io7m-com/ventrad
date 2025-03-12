@@ -77,7 +77,7 @@ version. All fields are required and must be non-null.
 
 ### Schema
 
-The served document `MUST` conform to the given schema:
+The served document `MUST` conform to the given [schema](Ventrad.schema.json):
 
 ```
 {
