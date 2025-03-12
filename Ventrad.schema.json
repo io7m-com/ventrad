@@ -1,0 +1,48 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "$defs" : {
+    "VProtocol" : {
+      "type" : "object",
+      "properties" : {
+        "Description" : {
+          "type" : "string",
+          "description" : "A humanly-readable description of the protocol."
+        },
+        "Endpoint" : {
+          "type" : "string",
+          "format" : "uri",
+          "description" : "The endpoint to be used by clients for this protocol."
+        },
+        "Id" : {
+          "type" : "string",
+          "description" : "The protocol identifier."
+        },
+        "VersionMajor" : {
+          "type" : "integer",
+          "description" : "The protocol major version."
+        },
+        "VersionMinor" : {
+          "type" : "integer",
+          "description" : "The protocol minor version."
+        }
+      },
+      "required" : [ "Description", "Endpoint", "Id", "VersionMajor", "VersionMinor" ],
+      "description" : "A single version of a single protocol."
+    }
+  },
+  "type" : "object",
+  "properties" : {
+    "%Schema" : {
+      "type" : "string"
+    },
+    "Protocols" : {
+      "description" : "The protocols.",
+      "type" : "array",
+      "items" : {
+        "$ref" : "#/$defs/VProtocol"
+      }
+    }
+  },
+  "required" : [ "%Schema", "Protocols" ],
+  "description" : "A set of supported protocols in priority order."
+}
