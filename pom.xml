@@ -36,7 +36,7 @@
     <!-- Third-party dependencies. -->
     <jackson.version>2.20.0</jackson.version>
     <logback.version>1.5.19</logback.version>
-    <org.junit.version>5.14.0</org.junit.version>
+    <org.junit.version>5.14.1</org.junit.version>
     <slf4j.version>2.0.17</slf4j.version>
   </properties>
 
