@@ -16,9 +16,8 @@
 
 package com.io7m.ventrad.tests;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.databind.json.JsonMapper;
+import tools.jackson.databind.SerializationFeature;
+import tools.jackson.databind.json.JsonMapper;
 import com.io7m.ventrad.core.VProtocol;
 import com.io7m.ventrad.core.VProtocols;
 import org.junit.jupiter.api.Test;
