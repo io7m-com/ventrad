@@ -22,7 +22,7 @@ open module com.io7m.ventrad.tests
   requires org.junit.platform.engine;
   requires org.junit.platform.launcher;
 
-  requires com.fasterxml.jackson.databind;
+  requires tools.jackson.databind;
   requires com.io7m.ventrad.core;
 
   exports com.io7m.ventrad.tests;
