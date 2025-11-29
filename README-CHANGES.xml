@@ -4,9 +4,24 @@
     <c:release date="2025-04-15T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.ventrad" version="1.0.0">
       <c:changes/>
     </c:release>
-    <c:release date="2025-11-29T12:05:09+00:00" is-open="true" ticket-system="com.github.io7m.ventrad" version="2.0.0">
+    <c:release date="2025-11-29T12:08:08+00:00" is-open="false" ticket-system="com.github.io7m.ventrad" version="2.0.0">
       <c:changes>
-        <c:change compatible="false" date="2025-11-29T12:05:09+00:00" summary="Upgrade to jackson 3.0.2"/>
+        <c:change date="2025-05-01T00:00:00+00:00" summary="Update org.junit:junit-bom:5.12.1 → 5.12.2."/>
+        <c:change date="2025-05-01T00:00:00+00:00" summary="Update com.fasterxml.jackson:jackson-bom:2.18.3 → 2.19.0."/>
+        <c:change date="2025-05-01T00:00:00+00:00" summary="Update commons-io:commons-io:2.18.0 → 2.19.0."/>
+        <c:change date="2025-06-01T00:00:00+00:00" summary="Update org.junit:junit-bom:5.12.2 → 5.13.0."/>
+        <c:change date="2025-07-01T00:00:00+00:00" summary="Update net.jqwik:jqwik-api:1.9.2 → 1.9.3."/>
+        <c:change date="2025-07-01T00:00:00+00:00" summary="Update net.jqwik:jqwik-engine:1.9.2 → 1.9.3."/>
+        <c:change date="2025-08-01T00:00:00+00:00" summary="Update org.junit:junit-bom:5.13.0 → 5.13.4."/>
+        <c:change date="2025-08-01T00:00:00+00:00" summary="Update com.fasterxml.jackson:jackson-bom:2.19.0 → 2.19.2."/>
+        <c:change date="2025-08-01T00:00:00+00:00" summary="Update commons-io:commons-io:2.19.0 → 2.20.0."/>
+        <c:change date="2025-09-01T00:00:00+00:00" summary="Update com.fasterxml.jackson:jackson-bom:2.19.2 → 2.20.0."/>
+        <c:change date="2025-10-01T00:00:00+00:00" summary="Update logback.version:1.5.18 → 1.5.19."/>
+        <c:change date="2025-10-25T00:00:00+00:00" summary="Update org.junit:junit-bom:5.13.4 → 5.14.0."/>
+        <c:change date="2025-11-01T00:00:00+00:00" summary="Update org.junit:junit-bom:5.14.0 → 5.14.1."/>
+        <c:change date="2025-11-01T00:00:00+00:00" summary="Update com.fasterxml.jackson:jackson-bom:2.20.0 → 2.20.1."/>
+        <c:change date="2025-11-02T00:00:00+00:00" summary="Update logback.version:1.5.19 → 1.5.20."/>
+        <c:change compatible="false" date="2025-11-29T00:00:00+00:00" summary="Upgrade to jackson 3.0.2"/>
       </c:changes>
     </c:release>
   </c:releases>
